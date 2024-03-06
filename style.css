@@ -1,0 +1,913 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+.common_detail{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #5B5F77;
+    line-height: 32px;
+}
+.common_btn{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    padding: 14px 28px;
+    background-color: #FD5F36;
+    border-radius: 5px;
+}
+.common_heading h4{
+      font-size: 20px;
+      font-weight: 600;
+      color: #FD5F36;
+      font-family: "Poppins", sans-serif;
+      text-transform: uppercase;
+}
+.common_heading h2{
+      font-size: 48px;
+      font-weight: 600;
+      color: #30344E;
+      font-family: "Poppins", sans-serif;
+      margin-top: 8px;
+}
+/* ===========================
+      Common Css End
+========================== */
+/* ===========================
+      Menu Part Start
+========================== */
+#main_menu{
+    width: 100%;
+    padding: 30px 0 ;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+#main_menu ul{
+    gap: 48px;
+}
+#main_menu ul li a{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    padding: 0;
+}
+#main_menu ul li a span{
+    padding-left: 8px;
+}
+.menu_contact .login{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+.menu_contact{
+    display: flex;
+    gap: 36px;
+    align-items: center;
+}
+.menu_contact .consult{
+    font-size: 18px;
+    font-weight: 500;
+    color: #30344E;
+    font-family: "Poppins", sans-serif;
+    padding: 14px 28px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+/* ===========================
+      Menu Part End
+========================== */
+/* ===========================
+      Banner Part Start
+========================== */
+#banner{
+  padding-top: 186px;
+  position: relative;
+  overflow: hidden;
+}
+.banner_content h1{
+    width: 644px;
+    font-size: 60px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+.banner_content .common_detail{
+    color: #fff;
+    width: 503px;
+    margin: 24px 0 40px;
+}
+.banner_signin{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #FFF;
+    line-height: 30px;
+    margin-top: 50px;
+}
+.banner_signin a{
+    color: #52C5B6;
+    font-weight: 700;
+}
+.b_arow{
+    margin-left:360px;
+    margin-bottom:50px;
+}
+.banner_picture{
+    position: relative;
+}
+.banner_img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 200px;
+    bottom: 0;
+}
+.review_wrap{
+      display: flex;
+      justify-content: space-between;
+}
+.banner_review_img{
+    display: flex;
+    position: relative;
+    margin-top: 80px;
+}
+.b_img_1{
+    position: absolute;
+    left: 35px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.b_img_2{
+    position: absolute;
+    left: 75px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.b_img_3{
+    position: absolute;
+    left: 105px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.b_img_4{
+    position: absolute;
+    left: 140px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.banner_review_num h3{
+    display: flex;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color: #52C5B6;
+    position: relative;
+    left: 210px;
+}
+.star{
+      position: absolute;
+      margin-left: 280px;
+      margin-top: -28px;
+}
+.banner_review h3::after{
+    content: '';
+    height: 20px;
+    width: 3px;
+    position: absolute;
+    left: 60px;
+    bottom: 4px;
+    background-color: #40516f;
+}
+.banner_review_total{
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: #FFF;
+  line-height: 30px;
+  margin-top: -5px;
+  margin-left: 205px;
+}
+.banner_play{
+      width: 220px;
+      height: 220px;
+      background-color: #373B59;
+      border-top-left-radius: 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.banner_play .play{
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      background-color: #FDFDFD;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+}
+.banner_play .play::after{
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform:  translate(-50%,-50%) scale(1);
+      background-color: rgba(253, 253, 253, 0.20);
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      animation: playanim 4s linear infinite;
+
+}
+
+@keyframes playanim {
+      from{
+            transform:  translate(-50%,-50%) scale(1);
+      }
+      to{
+            transform:  translate(-50%,-50%) scale(5);
+      }
+}
+
+.banner_circle{
+      width: 120px;
+      height: 120px;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      position: absolute;
+      bottom: 9px;
+      right: -60px;
+      animation: circle 4s linear infinite;
+}
+.banner_circle .circle{
+      width: 25px;
+      height: 25px;
+      background-color: #FFF;
+      border-radius: 50%;
+      position: absolute;
+      left: 50%;
+      top: -12px;
+      transform: translateX(-50%);
+}
+@keyframes circle {
+      from{
+            transform: rotate(0deg);
+      }
+      to{
+            transform: rotate(360deg);
+      }
+}
+
+/* ===========================
+      Banner Part End
+========================== */
+/* ===========================
+      about Part Start
+========================== */
+#about{
+      padding: 130px 0;
+}
+.about_details{
+      height: 100%;
+      padding-left: 70px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+}
+.about_details ul li p{
+      color: #30344E;
+}
+.about_details ul li{
+      display: flex;
+      align-items: center;
+      gap: 12px;
+}
+.about_details ul li span{
+      width: 24px;
+      height: 24px;
+      background-color: rgba(82, 197, 182, 0.60);
+      border-radius: 50%;
+      text-align: center;
+      line-height: 24px;
+}
+.about_details h2{
+      margin-bottom: 20px;
+}
+.about_details ul{
+      margin: 26px 0 40px;
+}
+/* ===========================
+      about Part End
+========================== */
+/* ===========================
+      Service Part Start
+========================== */
+#service{
+      padding: 120px 0;
+      background-color: #FAFAFA;
+}
+#service .common_heading h2{
+  width: 415px;
+}
+#service .common_detail{
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+}
+
+.service_slider{
+      display: flex;
+      gap: 27px;
+      margin-top: 50px;
+}
+.service_wrap{
+      width: 25%;
+      padding-bottom: 11px;
+      border-radius: 5px;
+      transition: .3s;
+}
+.service_wrap:nth-child(1):hover{
+      background-color: #FD5F36;
+}
+.service_wrap:nth-child(2):hover{
+      background-color: #52C5B6;
+}
+.service_wrap:nth-child(3):hover{
+      background-color: #2BCCFF;
+}
+.service_wrap:nth-child(4):hover{
+      background-color: #5D5FEF;
+}
+.service_slider_items{
+      padding: 40px 24px;
+      background-color: #FFFFFF;
+      border-radius: 5px;
+}
+
+.service_logo{
+      width: 83px;
+}
+.serviceItem_heading{
+      text-align: center;
+}
+.serviceItem_heading h2{
+      width: 261.8px;
+      height: 56px;
+      font-size: 20px;
+      font-weight: 600;
+      color: #30344E;
+      font-family: "Poppins", sans-serif;
+      margin: 30px 0 14px;
+}
+.serviceItem_heading p{
+      width: 282px;
+      height: 78px;
+      font-size: 16px;
+      font-weight: 400;
+      color: #5B5F77;
+      line-height: 26px;
+      font-family: "Inter", sans-serif;
+}
+.services_border{
+      height:110px;
+      width:110px;
+      border:2px solid #2BCCFF;
+      position:absolute;
+      left:-16%;
+      top:-15%;
+      border-radius:50%;
+      animation: border 1s linear infinite;
+  }
+  @keyframes border {
+      from{
+          transform:rotate(0deg)
+      }
+      to{
+          transform:rotate(360deg)
+      }
+  }
+  .services_wrap:nth-child(1) .services_border {
+      border:2px solid #F44C4C;
+  }
+  .services_wrap:nth-child(2) .services_border {
+      border:2px solid #52C5B6;
+  }
+  .services_wrap:nth-child(4) .services_border {
+      border:2px solid #5D5FEF;
+  }
+  .services_circel{
+      height:13px;
+      width:13px;
+      background-color:#2BCCFF;
+      border-radius:50%;
+      position:absolute;
+      top:50%;
+      left:-7px;
+  }
+  .services_wrap:nth-child(1) .services_circel{
+      background-color:#F44C4C;
+  }
+  .services_wrap:nth-child(2) .services_circel{
+      background-color:#52C5B6;
+  }
+  .services_wrap:nth-child(4) .services_circel{
+      background-color:#5D5FEF;
+  }
+/* ===========================
+      Service Part End
+========================== */
+/* ===========================
+      solution Part Start
+========================== */
+#solution{
+      padding: 160px 0;
+}
+#solution .common_heading{
+      margin: 20px 0 40px;
+      padding-right: 100px;
+}
+
+
+.solution_detail{
+      display: flex;
+      gap: 87px;
+      margin-top: 70px;
+      margin-right: 100px;      
+}
+/* ===========================
+      solution Part End
+========================== */
+/* ===========================
+      team Part Start
+========================== */
+#team{
+      padding-top: 80px;
+}
+
+.team_heading h3{
+      font-size: 20px;
+      font-weight: 600;
+      color: #FD5F36;
+      font-family: "Poppins", sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+}
+.team_heading h2{
+      font-size: 48px;
+      font-weight: 600;
+      color: #fff;
+      font-family: "Poppins", sans-serif;
+      text-align: center;
+}
+.team_body{
+      position: relative;
+      bottom: -173px;
+}
+.team_item{
+      position: relative;
+}
+.team_img img{
+      border-radius: 10px;
+}
+.team_details{
+      width: 70%;
+      padding: 22px 0 22px 25px;
+      background-color: #fff;
+      border-top-right-radius: 10px;
+      position: absolute;
+      bottom: -20px;
+      left: 0;
+}
+.social{
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      position: absolute;
+      right: 10px;
+      bottom: 20px;
+      text-align: center;
+      line-height: 44px;
+      cursor: pointer;
+      z-index: 1;
+}
+.social span{
+      width: 44px;
+      height: 44px;
+      background-color: #fff;
+      color: #5B5F77;
+      display: inline-block;
+      border-radius: 50%;
+      transition: .3s;
+}
+
+.social:hover span{
+      background-color: #52C5B6;
+      color: #fff;
+      transform: rotate(45deg);
+}
+.twitter,
+.linkedin,
+.pintarest{
+      width: 44px;
+      height: 44px;
+      background-color: #fff;
+      border-radius: 50%;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      text-align: center;
+      line-height: 44px;
+      color: #5B5F77;
+      transition: .3s;
+      cursor: pointer;   
+      z-index: -1;
+}
+.social:hover .twitter{
+      bottom: 60px;
+}
+.social:hover .linkedin{
+      bottom: 120px;
+}
+.social:hover .pintarest{
+      bottom: 180px;
+}
+/* ===========================
+      team Part End
+      ========================== */
+/* ===========================
+      qna_part Part Start
+========================== */
+#qna_part{
+      padding: 333px 0 140px;
+}
+.qna_header{
+      margin-top: 119px;
+      margin-bottom: 46px;
+}
+.qna_accordion .accordion-button:focus{
+      box-shadow: none;
+}
+.qna_accordion .accordion-button{
+      background-color: #ffff;
+      font-size: 20px;
+      color: #5B5F77;
+      font-weight: 600;
+      font-family: "Poppins", sans-serif;
+      border: 1px solid #D6D8E8;
+      border-radius: 5px;
+}
+.qna_accordion .accordion-button::after{
+      display: none;
+}
+.qna_accordion .accordion-button span{
+      margin-left: auto;
+      transition: .3s;
+}
+.qna_accordion .accordion-button:not(.collapsed) span{
+      transform: rotate(45deg);
+}
+.qna_accordion .accordion-button:not(.collapsed){
+      background-color: #52C5B6;
+      border: none;
+}
+.qna_accordion .accordion-item{
+      border: none;
+      margin-bottom: 15px;
+}
+.accordion-collapse.show{
+      border: 1px solid #52C5B6;
+}
+/* ===========================
+      qna_part Part End
+========================== */
+/* ===========================
+    trust_part Part Start
+========================== */
+#trust_part{
+      padding: 110px 0;
+}
+.trust_detail h2{
+      color: #fff;
+      margin-bottom: 40px;
+      width: 400px;
+      font-size: 38px;
+}
+.trust_counter{
+      display: flex;
+      justify-content: space-between;
+}
+.trust_counter .count_item h3{
+      font-size: 60px;
+      color: #fff;
+}
+.trust_counter .count_item p{
+      font-size: 20px;
+      color: #fff;
+}
+.trust_logo{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 52px;
+}
+/* ===========================
+    trust_part Part End
+========================== */
+/* ==========================
+       about us part start
+========================== */
+#about_us{
+      background-color: #FAFAFA;
+      padding-top: 40px;
+}
+#about_us .star{
+      margin-top: -25px;
+      margin-left: 505px;
+}
+.jenny_review{
+      height: 400px;
+      width: 720px;
+      background-color: #FFF;
+      border-radius: 10px;
+      margin-top: 50px;
+}
+.jenny_marketer{
+      padding: 10px 10px 10px;
+}
+.jenny_review p{
+      height: 185px;
+      width: 780px;
+      color: #6C6E81;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 46px;
+      font-family: "Inter", sans-serif;
+      padding: 30px 50px 0px 40px;
+}
+.jenny_wilson{
+      padding: 75px 130px 130px 70px;
+}
+.jenny_digital_marketer{
+      margin-left: 115px;
+      margin-top: -60px;
+}
+.jenny_wilson img{
+      width: 75px;
+      height: 75px;
+      border-radius: 50%;
+}
+.jenny_wilson h3{
+      font-family: "Poppins", sans-serif;
+      font-size: 24px;
+      font-weight: 600;
+}
+
+.jenny_wilson h4{
+      font-family: "Inter", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #30344E;
+}
+#about_us .chat img{
+      padding: 120px 40px 50px 40px;
+}
+/* ==========================
+       about us part end
+========================== */
+/* ===================================
+        BLOG PART CSS START
+======================================= */
+#blog{
+      padding: 130px 0;
+      background-color: #efefef;
+  }
+  .blog_heading h3{
+      font-size:20px;
+      font-weight:600;
+      font-family:"Poppins", sans-serif;
+      color: #FD5F36;
+      text-transform:uppercase;
+      margin: auto;
+      width: fit-content;
+  }
+  .blog_heading h2{
+      font-size:48px;
+      font-weight:600;
+      font-family:"Poppins", sans-serif;
+      color: #30344E;
+      text-transform:capitalize;
+      margin:8px auto 0;
+      width: fit-content;
+  }
+  .blog_items{
+      margin-top: 60px;
+  }
+  .blog_img {
+      border-top-left-radius: 10px;
+      border-top-right-radius:10px;
+      overflow: hidden;
+  }
+  .blog_details h3{
+      font-size:24px;
+      font-weight:600;
+      color:#3F3C5C;
+      font-family:"Inter", sans-serif;
+      line-height:34px;
+  }
+  #blog .blog_user .blog_user_img img{
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+  }
+  .blog_details p{
+      font-size:16px;
+      font-weight:400;
+      color:#575470;
+      font-family:"Inter", sans-serif;
+      line-height:32px; 
+  }
+  .blog_user{
+      display:flex;
+      align-items: center;
+      margin-top:18px;
+  }
+  .blog_user_img{
+      width: 20%;
+  }
+  .blog_user_name{
+      width: 30%;
+  }
+  .blog_user_date{
+      width: 50%;
+  }
+  .blog_user_date{
+      margin-left:auto;
+      width:fit-content;
+  }
+  .blog_user_name p,.blog_user_date p{
+      font-size:16px;
+      font-weight:400;
+      color:#9C9BA9;
+      font-family:"Inter", sans-serif;
+      margin-bottom:0;
+  }
+  .blog_user_date p span{
+      margin-right: 15px;
+  }
+  /* ===================================
+          BLOG PART CSS END
+  ======================================= */
+  /* ===================================
+          FOOTER PART CSS START
+  ======================================= */
+  #footer{
+      padding: 110px 30px;
+      background-color:#30344E;
+  }
+  .footer_social p{
+      font-size:16px;
+      font-weight:400;
+      color:#fff;
+      font-family:"Inter", sans-serif;
+      line-height:28px;
+      width:260px;
+      margin-top:26px;
+      margin-bottom: 0;
+  }
+  .footer_social_media{
+      margin-top: 24px;
+  }
+  .footer_social_media a{
+      background-color: #fff;
+      height:40px;
+      width:40px;
+      font-size:16px;
+      border-radius:50%;
+      line-height:40px;
+      text-align:center;  
+      color:#2B3044;
+      margin-right: 8px;
+  }
+  .footer_social_media a:last-child{
+      margin-right: 0;
+  }
+  .footer_items_wrap{
+      display:flex;
+  }
+  .footer_items h5{
+      font-size:18px;
+      font-weight:500;
+      font-family:"Inter", sans-serif;
+      color:#52C5B6;
+      margin-bottom:18px;
+  }
+  .footer_items {
+      width:30%;
+  }
+  .footer_items a{
+      display: block;
+      font-size:16px;
+      font-weight:400;
+      font-family:"Inter", sans-serif;
+      color:#fff;
+      margin-bottom: 12px;
+  }
+  .footer_items a:last-child{
+      margin-bottom:0;
+  }
+  .footer_updates h5{
+      font-size:18px;
+      font-weight:500;
+      font-family:"Inter", sans-serif;
+      color:#52C5B6;
+      margin-bottom:18px;
+  }
+  .footer_updates p{
+      font-size:16px;
+      font-weight:400;
+      color:#fff;
+      font-family:"Inter", sans-serif; 
+      line-height:26px;
+      margin-bottom:32px;   
+  }
+  .footer_mail{
+      height:46px;
+      width:270px;
+      background-color:#fff;
+      border-radius:5px;
+      position: relative;
+  }
+  .footer_mail input{
+      line-height: 46px;
+      border-radius: 5px;
+      border:none;
+      padding-left: 10px;
+      width:100%;
+      outline: none;
+  }
+  
+  .footer_mail button{
+      background-color:#FD5F36;
+      width: 36px;
+      height:36px;
+      border-radius:6px; 
+      text-align: center;
+      line-height: 36px;
+      color:#fff;
+      position:absolute;
+      right: 5px;
+      bottom: 5px;
+      border: none;
+  }
+  .footer_copyrights{
+      margin-top: 108px;
+  }
+  .footer_copyrights p{
+      font-size:14px;
+      font-weight:400;
+      color:#fff;
+      font-family:"Inter", sans-serif; 
+      position: relative;
+  }
+  .footer_copyrights p::before{
+      content:'';
+      height:2px;
+      width: 1270px;
+      background-color: #d2d2d285;
+      position: absolute;
+      left: 0;
+      top: -24px;
+  }
+  /* ===================================
+          FOOTER PART CSS END
+  ======================================= */
+  

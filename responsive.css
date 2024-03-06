@@ -1,0 +1,228 @@
+@media (max-width: 575px) {
+    /* ============== Menu Part Start =========== */
+    body{
+        overflow-x: hidden;
+    }
+    #navbar {
+        padding: 10px 0;
+    }
+    .navbarbtn{
+        color: #FD5F36;
+    }
+    #navbar ul {
+        gap: 5px;
+        background: #FD5F36;
+        text-align: center;
+    }
+    .nav_contact {
+        background-color: #FD5F36;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        padding-bottom: 20px;
+    }
+    /* ============== Menu Part End =========== */
+    /* ============== Banner Part Start =========== */
+    #banner {
+        padding-bottom: 60px;
+    }
+    .banner_detail h1 {
+        font-size: 40px;
+        width: 100%;
+    }
+    .banner_wrap {
+        justify-content: start;
+    }
+    .banner_play {
+        display: none;
+    }
+    .banner_img {
+        display: none;
+    }
+    /* ============== Banner Part End =========== */
+    /* ============== About Part Start =========== */
+    #about_us {
+        padding: 80px 0;
+    }
+    .about_us_details {
+        padding-left: 0;
+    }
+    .about_us_details h2 {
+        font-size: 36px;
+        width: 100%;
+        line-height: 50px;
+    }
+    .about_us_details h2 {
+        width: 100%;
+    }
+    .about_us_img{
+        padding-top: 40px;
+    }
+    /* ============== About Part End =========== */
+    /* ============== Service Part Start =========== */
+    #services {
+        padding: 80px 0;
+    }
+    .services_heading h2 {
+        font-size: 36px;
+        width: 100%;
+    }
+    .services_slider {
+        flex-direction: column;
+        align-items: center;
+    }
+    .services_wrap {
+        width: 100%;
+    }
+    /* ============== Service Part End =========== */
+    /* ============== Menu Part Start =========== */
+    #team {
+        padding: 80px 0;
+    }
+    .solution_heading h2 {
+        font-size: 36px;
+        line-height: 50px;
+        width: 100%;
+    }
+    .solution_heading p { 
+        width: 100%;
+    }
+    .solution_details {
+        gap: 40px;
+        flex-direction: column;
+    }
+    .solution_experience {
+        right: 0;
+    }
+    .team_row {
+        position: static;
+        margin-top: 110px !important;
+        margin-bottom: 110px;
+    }
+    .team_items {
+        margin-top: 40px;
+    }
+    /* ============== Menu Part End =========== */
+    /* ============== Menu Part Start =========== */
+    .accordion-body {
+        width: 100%;
+        margin-right: 0;
+    }
+    /* ============== Menu Part End =========== */
+    /* ============== Menu Part Start =========== */
+    /* ============== Menu Part End =========== */
+ }
+@media (min-width: 576px) and (max-width: 767px) {
+    /* ============== Menu Part Start =========== */
+
+    #navbar {
+        padding: 10px 0;
+    }
+    .navbarbtn{
+        color: #FD5F36;
+    }
+    #navbar ul {
+        gap: 5px;
+        background: #FD5F36;
+        text-align: center;
+    }
+    .nav_contact {
+        background-color: #FD5F36;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        padding-bottom: 20px;
+    }
+    /* ============== Menu Part End =========== */
+    /* ============== Banner Part Start =========== */
+    #banner {
+        padding-bottom: 60px;
+    }
+    .banner_detail h1 {
+        font-size: 40px;
+        width: 100%;
+    }
+    .banner_wrap {
+        justify-content: start;
+    }
+    .banner_play {
+        display: none;
+    }
+    .banner_img {
+        display: none;
+    }
+    /* ============== Banner Part End =========== */
+    /* ============== About Part Start =========== */
+    #about_us {
+        padding: 80px 0;
+    }
+    .about_us_details {
+        padding-left: 0;
+    }
+    .about_us_details h2 {
+        font-size: 36px;
+        width: 100%;
+        line-height: 50px;
+    }
+    .about_us_details h2 {
+        width: 100%;
+    }
+    .about_us_img{
+        padding-top: 40px;
+    }
+    /* ============== About Part End =========== */
+    /* ============== Service Part Start =========== */
+    #services {
+        padding: 80px 0;
+    }
+    .services_heading h2 {
+        font-size: 36px;
+        width: 100%;
+    }
+    .services_slider {
+        flex-direction: column;
+        align-items: center;
+    }
+    .services_wrap {
+        width: 100%;
+    }
+    /* ============== Service Part End =========== */
+    /* ============== Menu Part Start =========== */
+    #team {
+        padding: 80px 0;
+    }
+    .solution_heading h2 {
+        font-size: 36px;
+        line-height: 50px;
+        width: 100%;
+    }
+    .solution_heading p { 
+        width: 100%;
+    }
+    .solution_details {
+        gap: 40px;
+        flex-direction: column;
+    }
+    .solution_experience {
+        right: 0;
+    }
+    .team_row {
+        position: static;
+        margin-top: 110px !important;
+        margin-bottom: 110px;
+    }
+    .team_items {
+        margin-top: 40px;
+    }
+    /* ============== Menu Part End =========== */
+    /* ============== Menu Part Start =========== */
+    .accordion-body {
+        width: 100%;
+        margin-right: 0;
+    }
+    /* ============== Menu Part End =========== */
+ }
+@media (min-width: 768px) and (max-width: 991px) { }
+@media (min-width: 992px) and (max-width: 1199px) { }
